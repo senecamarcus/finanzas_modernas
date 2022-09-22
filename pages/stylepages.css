@@ -67,3 +67,32 @@ button:hover {
   transform: scale(1.3);
   cursor: pointer;
 }
+
+.blogger1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.diego {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  display: flex;
+  gap: 30px;
+}
+
+.text {
+  width: 400px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.diegopic {
+  width: 400px;
+  height: auto;
+  background-size: cover;
+}
