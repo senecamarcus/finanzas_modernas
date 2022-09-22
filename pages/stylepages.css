@@ -68,31 +68,28 @@ button:hover {
   cursor: pointer;
 }
 
-.blogger1 {
+.container1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  height: 700px;
+  width: auto;
 }
 
 .diego {
   display: flex;
   flex-wrap: wrap;
-  width: auto;
-  display: flex;
   gap: 30px;
 }
 
 .text {
   width: 400px;
   height: auto;
-  justify-content: center;
-  align-items: center;
 }
 
 .diegopic {
   width: 400px;
   height: auto;
-  background-size: cover;
+  background-size: contain;
 }
