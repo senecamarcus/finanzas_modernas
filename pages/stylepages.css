@@ -80,10 +80,14 @@ button:hover {
 .diego {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  height: fit-content;
+  flex-shrink: 0, 1;
 }
 
-.text {
+.column1 {
+}
+
+.column2 {
   width: 400px;
   height: auto;
   border: solid black;
@@ -91,8 +95,11 @@ button:hover {
   padding: 14px;
 }
 
+.text {
+}
+
 .diegopic {
   width: auto;
   height: 400px;
-  background-size: contain;
+  display: flex;
 }

@@ -12,3 +12,11 @@
 <form action="https://freecatphotoapp.com/submit-cat-photo"></form>
 
 The <input> element allows you several ways to collect data from a web form. Like img elements, input elements are self-closing and do not need closing tags.
+<input type="text" name="catphotourl" placeholder="cat photo URL">
+
+     <!-- Radio buttons asi se crean ejemplo abajo
+          <label><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+          <label><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label>
+     -->
+
+
