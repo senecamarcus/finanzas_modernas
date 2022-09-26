@@ -12,9 +12,9 @@
         <div id="navbar">
             <a href="#default" id="logo">Castrillon Capital</a>
             <div id="navbar-right">
-              <a class="active" href="#home">Inicio</a>
-              <a href="#contact">Contacto</a>
-              <a href="pages/aboutus.html">Sobre nosotros</a>
+                <a class="active" href="/index.html">Inicio</a>
+                <a class="active2" href="#Blog">Blog</a>
+                <a class="active3" href="pages/aboutus.html">Acerca de</a>
             </div>
           </div>
     </header>
@@ -32,6 +32,25 @@
 
     </section>
 
+    <div class="footer">
+        <footer class="footer1">
+            <p class="copy">Copyright ⓒ Finanzas Modernas 2022</p>
+        </footer>
+        </div>
 
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("navbar").style.padding = "30px 10px";
+            document.getElementById("logo").style.fontSize = "25px";
+          } else {
+            document.getElementById("navbar").style.padding = "80px 10px";
+            document.getElementById("logo").style.fontSize = "35px";
+          }
+        }
+        
+        </script>
 </body>
 </html>
