@@ -10,19 +10,16 @@
     <link rel="aboutus" href="pages/aboutus.html">
 </head>
 <body>
-    <header class="hero">
-        <nav>
-            <h1 class="logo">Finanzas <span>Modernas</span></h1>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Noticias</a></li>
-                <li><a href="pages/aboutus.html">Acerca de</a></li>
-            </ul>
-            <button type="button">Suscribe</button>
 
-        </nav>
-    </header>
+    <div id="navbar">
+        <a href="#default" id="logo">Castrillon Capital</a>
+        <div id="navbar-right">
+          <a class="active" href="#home">Inicio</a>
+          <a href="#contact">Contacto</a>
+          <a href="pages/aboutus.html">Sobre nosotros</a>
+        </div>
+      </div>
+
     <!--Below here we need to fix a lot-->
     <!--TODO: fix images to fit space-->
     <section class="sec1">
@@ -39,7 +36,20 @@
     </footer>
     </div>
 
-   
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("navbar").style.padding = "30px 10px";
+            document.getElementById("logo").style.fontSize = "25px";
+          } else {
+            document.getElementById("navbar").style.padding = "80px 10px";
+            document.getElementById("logo").style.fontSize = "35px";
+          }
+        }
+        
+        </script>
    
 </body>
 </html>
